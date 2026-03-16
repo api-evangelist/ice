@@ -1,30 +1,41 @@
 aid: ice
 name: ICE
 description: >-
-  Explore our catalog of integration tools to help you drive growth and perform
-  business processes with greater ease and efficiency. 
+  Intercontinental Exchange (ICE) is a global network of exchanges, clearing
+  houses and data services providing access to financial market data, trading
+  platforms, and integration tools. ICE's developer portal provides APIs and
+  integration tools to help drive growth and perform business processes.
 type: Index
-position: Consumer
-access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - API
+  - Financial Data
+  - Trading
+  - Market Data
+  - Exchanges
 created: '2025-03-01'
-modified: '2025-03-01'
+modified: '2026-03-16'
 url: https://raw.githubusercontent.com/api-evangelist/ice/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 apis:
   - aid: ice:ice
-    name: ICE
+    name: ICE Developer API
     description: >-
-      Explore our catalog of integration tools to help you drive growth and
-      perform business processes with greater ease and efficiency. 
-    humanURL: ' https://developer.ice.com/'
+      ICE provides integration tools and APIs to help organizations drive growth
+      and perform business processes with greater ease and efficiency, including
+      access to financial data, market connectivity, and trading services.
+    humanURL: https://developer.ice.com/
     tags:
-      - API
+      - Financial Data
+      - Trading
+      - Market Data
     properties:
       - type: Documentation
-        url: ' https://developer.ice.com/'
+        url: https://developer.ice.com/
+common:
+  - type: Portal
+    url: https://developer.ice.com/
+  - type: Website
+    url: https://www.theice.com/
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
+    email: kin@apievangelist.com
