@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Financial Data
-  - Trading
-  - Market Data
   - Exchanges
+  - Financial Data
+  - Market Data
+  - Trading
 created: '2025-03-01'
 modified: '2026-03-16'
 url: https://raw.githubusercontent.com/api-evangelist/ice/refs/heads/main/apis.yml
@@ -26,8 +26,8 @@ apis:
     humanURL: https://developer.ice.com/
     tags:
       - Financial Data
-      - Trading
       - Market Data
+      - Trading
     properties:
       - type: Documentation
         url: https://developer.ice.com/
