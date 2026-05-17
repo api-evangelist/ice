@@ -90,7 +90,7 @@ common:
     url: https://locator.ice.gov/
   - type: Contact
     url: https://www.ice.gov/contact
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.ice.gov/about/privacy
   - type: Open Data
     url: https://www.dhs.gov/data
