@@ -78,6 +78,8 @@ apis:
       - type: Submit Request
         url: https://www.ice.gov/foia/submit-request
 common:
+  - type: DomainSecurity
+    url: security/ice-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/u-s-immigration-and-customs-enforcement-ice
   - type: Website
