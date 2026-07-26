@@ -20,10 +20,6 @@ U.S. Immigration and Customs Enforcement (ICE) is a federal law enforcement agen
 
 ## APIs
 
-### ICE Online Detainee Locator System (ODLS)
-The Online Detainee Locator System is a public-facing search tool that allows the public to locate detainees currently in ICE custody by A-Number and country of birth, or by biographical information. The system is provided as a web search interface; no public developer API is published.
-
-**Human URL:** [https://locator.ice.gov/](https://locator.ice.gov/)
 
 #### Tags:
 
@@ -34,10 +30,6 @@ The Online Detainee Locator System is a public-facing search tool that allows th
 - [Website](https://locator.ice.gov/)
 - [Documentation](https://www.ice.gov/detain/detention-management)
 
-### ICE ERO Custody and Enforcement Statistics
-Enforcement and Removal Operations (ERO) publishes custody arrest, enforcement, and removal statistics in machine-readable formats (CSV/Excel) at regular reporting cadence. These datasets are published as downloadable files rather than through a versioned developer API.
-
-**Human URL:** [https://www.ice.gov/statistics](https://www.ice.gov/statistics)
 
 #### Tags:
 
@@ -48,10 +40,6 @@ Enforcement and Removal Operations (ERO) publishes custody arrest, enforcement, 
 - [Documentation](https://www.ice.gov/statistics)
 - [Reports](https://www.ice.gov/spotlight/statistics)
 
-### ICE FOIA Library
-ICE's Freedom of Information Act (FOIA) program provides a public reading room and electronic FOIA library with frequently requested records, policy directives, and data releases. Records are released as documents and bulk data files rather than through a programmatic API.
-
-**Human URL:** [https://www.ice.gov/foia](https://www.ice.gov/foia)
 
 #### Tags:
 

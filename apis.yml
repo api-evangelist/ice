@@ -8,7 +8,19 @@ description: >-
   open data, statistics, and FOIA resources used by researchers, attorneys,
   journalists, and the public.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ice.png
 tags:
   - Customs Enforcement
   - DHS
@@ -19,64 +31,9 @@ tags:
   - Open Data
 url: https://raw.githubusercontent.com/api-evangelist/ice/refs/heads/main/apis.yml
 created: '2025-03-01'
-modified: '2026-04-28'
+modified: '2026-07-25'
 specificationVersion: '0.19'
-apis:
-  - aid: ice:ice-online-detainee-locator-system
-    name: ICE Online Detainee Locator System (ODLS)
-    description: >-
-      The Online Detainee Locator System is a public-facing search tool that
-      allows the public to locate detainees currently in ICE custody by
-      A-Number and country of birth, or by biographical information. The
-      system is provided as a web search interface; no public developer API
-      is published.
-    humanURL: https://locator.ice.gov/
-    tags:
-      - Custody
-      - Detainee Locator
-      - Search
-    properties:
-      - type: Website
-        url: https://locator.ice.gov/
-      - type: Documentation
-        url: https://www.ice.gov/detain/detention-management
-  - aid: ice:ice-ero-statistics
-    name: ICE ERO Custody and Enforcement Statistics
-    description: >-
-      Enforcement and Removal Operations (ERO) publishes custody arrest,
-      enforcement, and removal statistics in machine-readable formats
-      (CSV/Excel) at regular reporting cadence. These datasets are published
-      as downloadable files rather than through a versioned developer API.
-    humanURL: https://www.ice.gov/statistics
-    tags:
-      - Enforcement
-      - Removals
-      - Statistics
-    properties:
-      - type: Documentation
-        url: https://www.ice.gov/statistics
-      - type: Reports
-        url: https://www.ice.gov/spotlight/statistics
-  - aid: ice:ice-foia
-    name: ICE FOIA Library
-    description: >-
-      ICE's Freedom of Information Act (FOIA) program provides a public
-      reading room and electronic FOIA library with frequently requested
-      records, policy directives, and data releases. Records are released
-      as documents and bulk data files rather than through a programmatic
-      API.
-    humanURL: https://www.ice.gov/foia
-    tags:
-      - FOIA
-      - Public Records
-      - Transparency
-    properties:
-      - type: Documentation
-        url: https://www.ice.gov/foia
-      - type: Library
-        url: https://www.ice.gov/foia/library
-      - type: Submit Request
-        url: https://www.ice.gov/foia/submit-request
+apis: []
 common:
   - type: DomainSecurity
     url: security/ice-domain-security.yml
