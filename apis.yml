@@ -35,7 +35,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ice.png
 tags:
   - Customs Enforcement
   - DHS
-  - Federal-Government
+  - Federal Government
   - Government
   - Immigration
   - Law Enforcement
@@ -48,6 +48,7 @@ tags_raw:
   - Immigration
   - Law Enforcement
   - Open Data
+  - Federal-Government
 url: https://raw.githubusercontent.com/api-evangelist/ice/refs/heads/main/apis.yml
 created: '2025-03-01'
 modified: '2026-07-25'
