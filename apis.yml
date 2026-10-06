@@ -51,10 +51,12 @@ tags_raw:
   - Federal-Government
 url: https://raw.githubusercontent.com/api-evangelist/ice/refs/heads/main/apis.yml
 created: '2025-03-01'
-modified: '2026-07-25'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://www.ice.gov/newsroom
+    type: Blog
   - type: DomainSecurity
     url: security/ice-domain-security.yml
   - type: LinkedIn
